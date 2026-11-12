@@ -38,6 +38,7 @@ const statementStory = document.querySelector("[data-statement-story]");
 const statementWords = [...document.querySelectorAll("[data-statement-word]")];
 const metricBadges = [...document.querySelectorAll("[data-metric-badge]")];
 const metricRotations = [-6, 4, -3];
+const topVideoPanels = [...document.querySelectorAll(".top-video-panel")];
 
 function progressThrough(element) {
   if (!element) return 0;
@@ -71,6 +72,17 @@ function updateMotion() {
       badge.style.transform = `translateY(${y}px) rotate(${metricRotations[index]}deg) scale(${scale})`;
     });
   }
+
+  topVideoPanels.forEach((panel, index) => {
+    const card = panel.querySelector(".top-video-card");
+    const nextPanel = topVideoPanels[index + 1];
+    if (!card || !nextPanel) return;
+    const pinTop = window.innerWidth <= 720 ? 72 : 94;
+    const nextTop = nextPanel.getBoundingClientRect().top;
+    const cover = clamp((window.innerHeight - nextTop) / Math.max(1, window.innerHeight - pinTop));
+    card.style.setProperty("--stack-scale", String(1 - cover * 0.038));
+    card.style.setProperty("--stack-brightness", String(1 - cover * 0.13));
+  });
 }
 
 let scrollQueued = false;
