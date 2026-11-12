@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.sites-workflow/
+*.tgz
+*.tar.gz
+.DS_Store
+Archive/Graphics/
+Archive/Stock/
+Archive/__MACOSX/
+
