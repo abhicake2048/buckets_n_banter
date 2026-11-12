@@ -62,7 +62,7 @@ export const episodes = [
     duration: "44:06",
     summary:
       "Charles Acquah-Davis breaks down the UK-to-Europe pro pathway, the grind behind each level and the decisions players face while pursuing the game.",
-    thumbnail: "Archive/Thumbnails/15 - Charles.png",
+    thumbnail: "design_assets/Thumbnails/15 - Charles.png",
   },
   {
     number: 14,
@@ -75,7 +75,7 @@ export const episodes = [
     duration: "36:19",
     summary:
       "Jai, founder of NoLookNation India, talks about building one of the platforms shaping Indian basketball culture and the community around it.",
-    thumbnail: "Archive/Thumbnails/14 - Jai.jpeg",
+    thumbnail: "design_assets/Thumbnails/14 - Jai.jpeg",
   },
   {
     number: 13,
@@ -88,7 +88,7 @@ export const episodes = [
     duration: "51:36",
     summary:
       "Naman Agrawal joins Joseph to open a new chapter of the show and unpack the early moves, networks and mindset behind a career in sport.",
-    thumbnail: "Archive/Thumbnails/13 - Naman.jpg",
+    thumbnail: "design_assets/Thumbnails/13 - Naman.jpg",
   },
   {
     number: 12,
@@ -101,7 +101,7 @@ export const episodes = [
     duration: "44:16",
     summary:
       "Tony from the London Basketball Association talks community hoops, basketball development and what it takes to grow the game in London.",
-    thumbnail: "Archive/Thumbnails/12 - Tony.png",
+    thumbnail: "design_assets/Thumbnails/12 - Tony.png",
   },
   {
     number: 11,
@@ -114,7 +114,7 @@ export const episodes = [
     duration: "42:03",
     summary:
       "Dheeraj Reddy and Sumanth Sathya share their journeys as Indian professional basketball players and the challenges of chasing the sport in a cricket-dominated landscape.",
-    thumbnail: "Archive/Thumbnails/11 - Dheeraj_Sumanth.png",
+    thumbnail: "design_assets/Thumbnails/11 - Dheeraj_Sumanth.png",
   },
   {
     number: 10,
@@ -127,7 +127,7 @@ export const episodes = [
     duration: "41:45",
     summary:
       "Joe Roberts discusses moving from postgraduate study into entrepreneurship and building a new venture at the intersection of health and performance.",
-    thumbnail: "Archive/Thumbnails/10 - Joe.png",
+    thumbnail: "design_assets/Thumbnails/10 - Joe.png",
   },
   {
     number: 9,
@@ -140,7 +140,7 @@ export const episodes = [
     duration: "45:06",
     summary:
       "TeamSportz founder Francisco Baptista shares his route into sports technology, the leap into entrepreneurship and the ideas driving his platform.",
-    thumbnail: "Archive/Thumbnails/9 - Francisco.png",
+    thumbnail: "design_assets/Thumbnails/9 - Francisco.png",
   },
   {
     number: 8,
@@ -153,7 +153,7 @@ export const episodes = [
     duration: "41:33",
     summary:
       "Footballer Alex Hazlewood reflects on setbacks, recovery and the mentality required to return stronger.",
-    thumbnail: "Archive/Thumbnails/8 - Alex.png",
+    thumbnail: "design_assets/Thumbnails/8 - Alex.png",
   },
   {
     number: 7,
@@ -166,7 +166,7 @@ export const episodes = [
     duration: "45:22",
     summary:
       "Sandarsh 'Sandy' Jain joins Joseph for a football conversation shaped by Arsenal, fandom and the stories that keep supporters invested.",
-    thumbnail: "Archive/Thumbnails/7 - Sandy.png",
+    thumbnail: "design_assets/Thumbnails/7 - Sandy.png",
   },
   {
     number: 6,
@@ -179,7 +179,7 @@ export const episodes = [
     duration: "16:41",
     summary:
       "Joseph Antony swaps the host's chair for the guest seat in a solo episode about the show, his own sporting story and what comes next.",
-    thumbnail: "Archive/Thumbnails/6 - Joe.png",
+    thumbnail: "design_assets/Thumbnails/6 - Joe.png",
   },
   {
     number: 5,
@@ -192,6 +192,6 @@ export const episodes = [
     duration: "36:22",
     summary:
       "Francisco 'Kiko' Campos joins from Portugal for a wide-ranging conversation about football, culture and the game through a Portuguese lens.",
-    thumbnail: "Archive/Thumbnails/5 - Kiko.png",
+    thumbnail: "design_assets/Thumbnails/5 - Kiko.png",
   },
 ];
