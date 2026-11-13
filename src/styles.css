@@ -155,3 +155,23 @@ body.menu-open{overflow:hidden}img{display:block;max-width:100%}picture{display:
   .watch-section{padding:62px 14px 76px}.watch-layout{gap:32px}.watch-section .video-shell{margin-top:15px;border-radius:16px;aspect-ratio:16/9}.watch-section .video-play{width:78px;height:78px}.watch-section .video-play span{font-size:.5rem}.watch-copy h2{margin:11px 0 19px;font-size:clamp(3rem,14vw,4.3rem)}.watch-copy>p:not(.hand-label){margin-bottom:24px;font-size:.98rem;line-height:1.65}
 }
 @media(max-width:380px){.home-hero__title{font-size:3.35rem}.episode-hero h1{font-size:2.55rem}}
+
+/* Mobile top-three cards: consistent proportions, contained artwork and compact copy rhythm. */
+@media(max-width:720px){
+  .top-video-stack{padding-bottom:6vh}
+  .top-video-panel,.top-video-panel:last-child{top:68px;height:clamp(560px,calc(100svh - 84px),700px);min-height:0;margin-bottom:9vh}
+  .top-video-card,.top-video-card--reverse{height:100%;min-height:0;max-height:none;padding:8px;gap:0;grid-template-columns:1fr;grid-template-rows:minmax(190px,40%) minmax(0,60%);border-radius:19px;overflow:hidden}
+  .top-video-media{order:0!important;width:100%;max-width:100%;min-width:0;min-height:0;aspect-ratio:auto;border-radius:14px;overflow:hidden}
+  .top-video-media picture{position:absolute;inset:0;width:100%;height:100%}
+  .top-video-media img{width:100%;height:100%;object-fit:cover}
+  .top-video-copy{align-self:stretch;min-width:0;min-height:0;overflow:hidden;padding:16px 12px 12px;display:flex;flex-direction:column;align-content:normal}
+  .top-video-copy .hand-label{flex:0 0 auto;margin:0 0 8px;font-size:.66rem;line-height:1.15}
+  .top-video-copy h3,.top-video-panel--2 .top-video-copy h3{flex:0 0 auto;margin:0 0 10px;font-size:clamp(1.6rem,7vw,2.15rem);line-height:1;letter-spacing:-.03em;overflow-wrap:anywhere;text-wrap:balance}
+  .top-video-guest{flex:0 0 auto;margin:0 0 12px;font-size:.92rem;line-height:1.2}
+  .top-video-summary{display:none}
+  .top-video-copy .button{flex:0 0 auto;align-self:flex-start;margin-top:auto;min-height:42px;padding:0 13px;font-size:.62rem}
+}
+
+/* Give multi-line episode titles enough air at every breakpoint. */
+.episode-hero h1{line-height:.94;letter-spacing:-.032em}
+@media(max-width:720px){.episode-hero h1{line-height:.98;letter-spacing:-.025em}}
