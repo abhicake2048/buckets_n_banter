@@ -66,7 +66,7 @@ function updateMotion() {
     metricBadges.forEach((badge, index) => {
       const enter = clamp((progress - (0.32 + index * 0.055)) / 0.18);
       const exit = clamp((progress - (0.78 + index * 0.025)) / 0.16);
-      const y = (1 - enter) * 190 - exit * 175;
+      const y = (1 - enter) * 105 - exit * 125;
       const scale = 0.82 + enter * 0.18 - exit * 0.08;
       badge.style.opacity = String(enter * (1 - exit));
       badge.style.transform = `translateY(${y}px) rotate(${metricRotations[index]}deg) scale(${scale})`;
