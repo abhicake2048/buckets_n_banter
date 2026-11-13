@@ -175,3 +175,18 @@ body.menu-open{overflow:hidden}img{display:block;max-width:100%}picture{display:
 /* Give multi-line episode titles enough air at every breakpoint. */
 .episode-hero h1{line-height:.94;letter-spacing:-.032em}
 @media(max-width:720px){.episode-hero h1{line-height:.98;letter-spacing:-.025em}}
+
+/* Keep the show name on one responsive line in the opening frame. */
+.home-hero__title{width:100%;font-size:clamp(4rem,7.6vw,7rem);line-height:.82;letter-spacing:-.052em;white-space:nowrap}
+.home-hero__title span{display:inline;white-space:nowrap}
+
+/* Mobile video cards follow their content instead of reserving an empty viewport-height body. */
+@media(max-width:720px){
+  .home-hero__title{font-size:clamp(1.75rem,7.1vw,3.4rem);line-height:.9;letter-spacing:-.04em}
+  .top-video-stack{padding-bottom:4vh}
+  .top-video-panel,.top-video-panel:last-child{top:68px;height:clamp(500px,68svh,580px);min-height:0;margin-bottom:8vh}
+  .top-video-card,.top-video-card--reverse{height:auto;min-height:0;max-height:none;grid-template-rows:auto auto;align-content:start}
+  .top-video-media{height:auto;aspect-ratio:4/3}
+  .top-video-copy{height:auto;min-height:0;overflow:visible;padding:15px 12px 13px}
+  .top-video-copy .button{margin-top:7px}
+}
