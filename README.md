@@ -25,7 +25,7 @@ magick -version
 Clone the repository and install its dependencies:
 
 ```powershell
-git clone https://github.com/YOUR-USERNAME/buckets-n-banter.git
+git clone https://github.com/abhicake2048/buckets_n_banter.git
 cd buckets-n-banter
 npm ci
 ```
